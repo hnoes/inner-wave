@@ -2,15 +2,20 @@ import React from 'react';
 import '../../App.css';
 
 export default function Videos() {
+    const customStyle = {
+        marginTop: '20px',
+    };
+
   return (
     <div className='videos-container'>
         <div className='header-image'>
         <h1 className='centered-text'>Video Library</h1>
     </div>
+
     <div className='text-content-wrapper'>
         <div className='text-column'>
       
-      <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>
+      <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>
         Change Your Breath, Change Your Life
       </h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>

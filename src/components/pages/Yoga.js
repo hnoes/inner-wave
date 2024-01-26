@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import TextColumn from './TextColumn';
 
 export default function Yoga() {
   return (
     <div className='yoga-page'>
       <h1 className='yoga'>Yoga</h1>
 
+    <TextColumn>
       <p className='paragraph-spacing'>
         <strong>"Yoga is not a work-out, it is a work-in. 
           And this is the point of spiritual practice; to make 
@@ -72,7 +74,7 @@ export default function Yoga() {
            have on your health and well-being.
       </p>
 
-
+      </TextColumn>
     </div>
   );
 }
